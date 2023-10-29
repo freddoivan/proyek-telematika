@@ -1,5 +1,6 @@
 .btn{
     background-color: white;
-    color: red;
+    color: black;
+    border-color: black;
     padding: 0.25rem 1rem;
 }
