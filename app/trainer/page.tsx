@@ -3,7 +3,8 @@
 import styles from './login.module.css'
 import Image from 'next/image';
 import Link from 'next/link';
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/TNavbar'
+import TNavbar from '@/components/TNavbar';
 
 const Hero = () => {
     const handleScroll = () => {
@@ -11,14 +12,14 @@ const Hero = () => {
     }
   return (
     <div className='hero'>
-        <Navbar />
+        <TNavbar />
         <div className='flex-1 pt-36 padding-x'>
             <h1 className='hero__title'>
                 GetFitt
             </h1>
             
             <p className='hero__subtitle'>
-                Get fit and healthy!
+                Train the trainees to be healthy!
             </p>
         </div>
         <div className='hero__image-container'>
